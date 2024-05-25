@@ -14,7 +14,7 @@ time.sleep(4)
 # This does above task of opening a new tab
 pyautogui.hotkey("ctrl", "t")
 
-# This code will take me to twitter
+# This code will take me~~ to twitter
 pyautogui.moveTo(405,96,duration=1)
 pyautogui.click()
 with open('openingTabURL.txt', 'r') as x:
@@ -35,3 +35,4 @@ pyautogui.typewrite(tweetContent)
 pyautogui.moveTo(1257,540,duration=1)
 pyautogui.click()
 # samyak saying hii and testing he's PR
+# finally gulshan made me learned how to create pr
